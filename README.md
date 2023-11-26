@@ -18,7 +18,7 @@ find_package(GTest CONFIG REQUIRED)
 target_link_libraries(Test PRIVATE GTest::gmock GTest::gtest GTest::gmock_main GTest::gtest_main)
 ```
 
-## 使用 IDE 继承 cmake编译
+## 使用 IDE 集成 cmake编译
 使用对于 IDE （CLion 或 Visual Studio）打开编译即可
 
 ## 使用 CMake 命令行编译
